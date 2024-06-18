@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULARIO DE PRODUCTOS</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <script defer src="main.js"></script>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto p-4">
@@ -51,6 +50,7 @@
             $cantidad = intval($_POST['cantidad']);
             agregarProducto($_SESSION['productos'], $nombre, $precio, $cantidad);
         }
+        
 
         function mostrarProductos($productos) {
             echo '<table class="min-w-full bg-white">';
