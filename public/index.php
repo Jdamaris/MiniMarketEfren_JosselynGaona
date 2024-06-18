@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
+<center> 
     <div class="container mx-auto p-4">
         <h1 class="text-2xl font-bold mb-4">FORMULARIO DE PRODUCTOS</h1>
         <form id="productForm" class="bg-white p-4 rounded shadow-md mb-4" method="POST" action="">
@@ -26,6 +27,7 @@
                 <p id="errorCantidad" class="text-red-500 text-sm"></p>
             </div>
             <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Agregar Producto</button>
+            </center>
         </form>
 
         <?php
